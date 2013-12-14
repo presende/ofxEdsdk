@@ -13,8 +13,10 @@ namespace ofxEdsdk {
 	
 	class Camera : public ofThread {
 	public:
+        
 		Camera();
 		~Camera();
+        
 		bool setup(int deviceId = 0);
 		
 		void update();

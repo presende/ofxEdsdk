@@ -96,7 +96,6 @@ namespace ofxEdsdk {
 	
 	bool Camera::setup(int deviceId) {
 		try {
-			Eds::InitializeSDK();
 			
 			EdsCameraListRef cameraList;
 			Eds::GetCameraList(&cameraList);
